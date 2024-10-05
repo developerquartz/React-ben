@@ -1,0 +1,43 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+
+const ReturnSection = () => {
+  return (
+    <>
+      <section className="return-serv-main position-relative pt-5 pb-5">
+        <Container>
+          <Row className="align-items-center">
+            <Col md={6} className="ps-5">
+              <div className="img-retun-serv">
+                <img
+                  className="img-fluid"
+                  src="../../../assets/images/serv-shape-image.png"
+                />
+              </div>
+            </Col>
+            <Col md={6} className="ps-5">
+              <div className="cotnet-return-serv">
+                <h2>You must make the required tax return</h2>
+                <p>
+                  Offer in Compromise is a negotiation between the IRS and an
+                  individual who struggles to pay their tax liability in full or
+                  will experience financial hardship in doing so. This is also a
+                  legitimate method to settle tax delinquencies for a reduced
+                  amount. There are certain factors to consider such as income,
+                  ability to pay, and asset equity.
+                </p>
+                <p>
+                  You must make the required tax returns and estimated payments
+                  plus an application to ensure eligibility. You will also be
+                  asked to complete Form 433-A for individuals or Form 433-B for
+                  businesses and Form 656 in addition to the required documents.
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+    </>
+  );
+};
+export default ReturnSection;

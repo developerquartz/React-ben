@@ -1,0 +1,29 @@
+
+// ================= DISPUTE DETAILS =================== //
+export const DISPUTE_DETAIL = "DISPUTE_DETAIL";
+export const DISPUTE_DETAIL_SUCCESS ="DISPUTE_DETAIL_SUCCESS";
+export const DISPUTE_DETAIL_FAIL = "DISPUTE_DETAIL_FAIL";
+
+
+// ================= DISPUTE LIST =================== //
+export const DISPUTES_LIST = "DISPUTES_LIST";
+export const DISPUTES_LIST_SUCCESS ="DISPUTES_LIST_SUCCESS";
+export const DISPUTES_LIST_FAIL = "DISPUTES_LIST_FAIL";
+
+
+// ================= UPDATE DISPUTE STATUS =================== //
+export const UPDATE_DISPUTE_STATUS = "UPDATE_DISPUTE_STATUS";
+export const UPDATE_DISPUTE_STATUS_SUCCESS ="UPDATE_DISPUTE_STATUS_SUCCESS";
+export const UPDATE_DISPUTE_STATUS_FAIL = "UPDATE_DISPUTE_STATUS_FAIL";
+
+
+// ================= REFUND DISPUTE =================== //
+export const REFUND_DISPUTE = "REFUND_DISPUTE";
+export const REFUND_DISPUTE_SUCCESS ="REFUND_DISPUTE_SUCCESS";
+export const REFUND_DISPUTE_FAIL = "REFUND_DISPUTE_FAIL";
+
+
+// ================= DISPUTE REPLY BY ADMIN =================== //
+export const DISPUTE_REPLY = "DISPUTE_REPLY";
+export const DISPUTE_REPLY_SUCCESS ="DISPUTE_REPLY_SUCCESS";
+export const DISPUTE_REPLY_FAIL = "DISPUTE_REPLY_FAIL";

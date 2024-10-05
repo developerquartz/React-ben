@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+span.label {
+  background: gray;
+  display: inline-block;
+  width: 115px;
+  text-align: center;
+}
+span.confirmed,
+span.created {
+  background: #9e8714bf;
+}
+.page-heading i.zmdi-hc-fw {
+  color: #fbcc02;
+  font-size: larger;
+}
+
+span.declined {
+  background: #e0b91ffc;
+}
+
+span.started,
+span.pending,
+span.process,
+span.Scheduled {
+  background: #e0491f;
+}
+
+span.DestinationInroute,
+span.PickupInroute,
+span.inrouteDrop {
+  background: #b276e3;
+}
+
+span.FindingTrips,
+span.inroutePick,
+span.FindingDrivers {
+  background: #972ded;
+}
+.MuiListItemIcon-root {
+  min-width: 30px !important;
+}
+span.completed,
+span.success,
+span.complete,
+span.Completed,
+span.Online,
+span.active,
+span.accepted,
+span.approved,
+span.Yes,
+span.yes,
+span.true {
+  background: rgba(4, 190, 122, 0.603);
+  color: #0f6d0c;
+}
+
+span.cancelled,
+span.Cancelled,
+span.cancel,
+span.rejected,
+span.blocked,
+span.inactive,
+span.No,
+span.no,
+span.false {
+  /* background: red; */
+  color: #f46a6a;
+  background: #f46a6a2e;
+}
+tfoot td {
+  border: 0 !important;
+}
+span.Offline {
+  background: #eb4d4d;
+}
+
+span.cash {
+  background: orange;
+}
+
+span.stripe {
+  background: #5f9ea0e6;
+}
+/* .react-switch-bg {
+  background: #3b63dc !important;
+} */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
