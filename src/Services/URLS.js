@@ -1,4 +1,4 @@
-export const API_URL = "https://backoffice-api.suffescom.dev/api/";
+export const API_URL = "https://backoffice-api.test.dev/api/";
 
 export const LOGIN_USER = "user/usercheckotp";
 export const LOGIN_OTP = "user/userloginotp";
